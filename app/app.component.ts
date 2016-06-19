@@ -11,20 +11,8 @@ import { ContactComponent } from './contact/contact.component';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 
 @Component({
-  selector: 'my-app',
-  template: `
-  <h1>{{title}}</h1>
-  <nav>
-    <a [routerLink]="['ABOUT']">Über uns</a>
-    <a [routerLink]="['TEAM']">Team</a>
-    <a [routerLink]="['EMPHASES']">Schwerpunkte</a>
-    <a [routerLink]="['FOTOS']">Fotos</a>
-    <a [routerLink]="['OPEN']">Öffnungszeiten</a>
-    <a [routerLink]="['WAY']">Weg zu uns</a>
-    <a [routerLink]="['CONTACT']">Kontakt</a>
-  </nav>
-  <router-outlet></router-outlet>`
-  ,
+  selector: 'main-content',
+  templateUrl: 'app/app.component.html',
   directives: [ROUTER_DIRECTIVES],
     providers: [
       ROUTER_PROVIDERS

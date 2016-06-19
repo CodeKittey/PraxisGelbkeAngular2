@@ -22,8 +22,8 @@ var AppComponent = (function () {
     }
     AppComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n  <h1>{{title}}</h1>\n  <nav>\n    <a [routerLink]=\"['ABOUT']\">\u00DCber uns</a>\n    <a [routerLink]=\"['TEAM']\">Team</a>\n    <a [routerLink]=\"['EMPHASES']\">Schwerpunkte</a>\n    <a [routerLink]=\"['FOTOS']\">Fotos</a>\n    <a [routerLink]=\"['OPEN']\">\u00D6ffnungszeiten</a>\n    <a [routerLink]=\"['WAY']\">Weg zu uns</a>\n    <a [routerLink]=\"['CONTACT']\">Kontakt</a>\n  </nav>\n  <router-outlet></router-outlet>",
+            selector: 'main-content',
+            templateUrl: 'app/app.component.html',
             directives: [router_deprecated_1.ROUTER_DIRECTIVES],
             providers: [
                 router_deprecated_1.ROUTER_PROVIDERS

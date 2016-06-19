@@ -1,0 +1,77 @@
+<div id='root' class='clear-block'>
+
+    <div id='main'>
+        <div class='limiter'>
+
+            <div id='branding' class='clear-block'>
+                <h1 class='site-name'><a href="/" class="active">Zahnarztpraxis Dr. Jörg-Ulrich Gelbke</a></h1>
+                <div class='primary'>
+                    <nav>
+                        <a [routerLink]="['ABOUT']">Über uns</a>
+                        <a [routerLink]="['TEAM']">Team</a>
+                        <a [routerLink]="['EMPHASES']">Schwerpunkte</a>
+                        <a [routerLink]="['FOTOS']">Fotos</a>
+                        <a [routerLink]="['OPEN']">Öffnungszeiten</a>
+                        <a [routerLink]="['WAY']">Weg zu uns</a>
+                        <a [routerLink]="['CONTACT']">Kontakt</a>
+                    </nav>
+                    <router-outlet></router-outlet>
+                </div>
+
+            </div>
+
+            <div id='utility'></div>
+            <div ui-view>
+                <div id='page'>
+                    <div class='page-header'>
+                        <h2 class='page-title'>Willkommen bei Ihrer Zahnarztpraxis Gelbke.</h2>
+                    </div>
+                    <div id='content' class='clear-block'>
+                        <div id="node-9" class="node node-page node-page">
+                            <div class='node-content clear-block prose'>
+                                <p>
+                                    Wir sind Ihre Praxis für Maxdorf und Umgebung und dies bereits seit nunmehr 25 Jahren. Es würde uns freuen auch Sie künftig
+                                    in Unserer Praxis begrüssen zu dürfen!</p>
+                                <p>
+                                    <img src="img/g_logo.png" /></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer" class='clear-block'>
+                <div class="vcard">
+
+                    <h3><a class="fn org url" href="http://www.praxis-gelbke.de/">Praxis Gelbke</a></h3>
+                    <div class="left">
+                        <h4 class="category">Zahnarztpraxis</h4>
+                        <div class="adr">
+                            <div class="street-address">Am Dreschplatz 1</div>
+                            <span class="postal-code">67133</span>
+                            <span class="locality">Maxdorf</span>
+
+                            <abbr class="region" title="Rhein-Pfalz-Kreis">Rhein-Pfalz-Kreis</abbr></div>
+                    </div>
+                    <div class="right">
+                        <div class="tel">
+                            <span class="type">Tel. </span>06237-5682
+                        </div>
+                        <div>
+                            <span class="type">Email: </span>
+                            <span class="email"><a href="mailto:info@praxis-gelbke.de">info@praxis-gelbke.de</a></span>
+
+                        </div>
+                    </div>
+                    <div class='secondary'>
+                        <ul class="links secondary-links">
+                            <li class="menu-779 first"><a href="/kontaktformular-r%C3%BCckruf" title="Kontaktformular / Rückruf">Kontaktformular / Rückruf</a></li>
+                            <li class="menu-1250"><a href="/sitemap" title="Sitemap der Seite">Sitemap</a></li>
+                            <li class="menu-307 last"><a href="/impressum" title="Impressum">Impressum</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
